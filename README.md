@@ -3,7 +3,7 @@ my_flask_app/
 ├── app.py
 │   └──
         import sqlite3
-        from flask import Flask, render_template, request, g, redirect, url_for, session, flashs
+        from flask import Flask, render_template, request, g, redirect, url_for, session, 
         from werkzeug.security import generate_password_hash, check_password_hash
 
         app = Flask(__name__)
