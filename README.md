@@ -7,7 +7,7 @@ my_flask_app/
         from werkzeug.security import generate_password_hash, check_password_hashs
 
         app = Flask(__name__)
-        app.secret_key = "supersecretkey"  # change in production
+        app.secret_key = "supersecretkey"  # change in 
         DATABASE = "app.db"
 
         def get_db():
