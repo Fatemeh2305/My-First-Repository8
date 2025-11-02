@@ -77,7 +77,7 @@ my_flask_app/
 
                 db = get_db()
                 cursor = db.cursor()
-                try:
+                
                     cursor.execute("INSERT INTO users (username, password) VALUES (?, ?)", (username, hashed_pw))
                     db.commit()
                     flash("Registration successful! Please log in.", "success")
