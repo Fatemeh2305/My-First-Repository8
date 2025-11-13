@@ -9,6 +9,7 @@ my_flask_app/
         app = Flask(__name__)
         app.secret_key = "supersecretkey" py
         DATABASE = "app.db"
+        <body>
 
         def get_db():
             db = getattr(g, "_database", None)
