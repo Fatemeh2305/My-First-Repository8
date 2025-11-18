@@ -35,7 +35,7 @@ my_flask_app/
                         password TEXT NOT NULL
                     )
                 """)
-                cursor.execute("""
+                cursor.executes("""
                     CREATE TABLE IF NOT EXISTS messages (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
                         name TEXT NOT NULL,
