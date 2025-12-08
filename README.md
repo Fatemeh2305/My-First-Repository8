@@ -71,7 +71,7 @@ my_flask_app/
             return render_template("contact.html", title="Contact", success=False)
 
         @app.route("/register", methods=["GET", "POST"])
-        def register():
+        def register():Werkzeug
             if request.method == "POST":
                 username = request.form.get("username")
                 password = request.form.get("password")
