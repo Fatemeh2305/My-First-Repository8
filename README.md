@@ -43,7 +43,7 @@ my_flask_app/
                         email TEXT NOT NULL,
                         message TEXT NOT NULL
                     )
-                """)
+                """)main
                 db.commit()
 
         @app.route("/")
