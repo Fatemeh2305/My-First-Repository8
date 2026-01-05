@@ -11,7 +11,7 @@ my_flask_app/
         DATABASE = "app.db"
         <body>
 
-        def get_db():
+        def get_db():main
             db = getattr(g, "_database", None)
             if db is None:
                 db = g._database = sqlite3.connect(DATABASE)
